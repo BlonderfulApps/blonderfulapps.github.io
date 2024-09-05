@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiestas de Los Caleyos 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             background-color: #ff6699;
             color: black;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
 
         h1, h2 {
@@ -22,11 +25,6 @@
             font-size: 2em;
         }
 
-        p {
-            font-size: 1.2em;
-            margin-bottom: 15px;
-        }
-
         .eventos {
             margin-top: 30px;
             padding: 20px;
@@ -36,6 +34,27 @@
             max-width: 800px;
             margin-left: auto;
             margin-right: auto;
+        }
+
+        .evento {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .hora {
+            font-weight: 600;
+            text-align: left;
+            flex: 0 0 20%;
+            margin-left: 30px; /* Aumentamos el margen a la izquierda */
+        }
+
+        .descripcion {
+            text-align: left;
+            flex: 0 0 80%;
+            margin-left: 10px;
+            margin-right: 30px; /* Añadimos más margen a la derecha */
         }
 
         footer {
@@ -53,19 +72,46 @@
 
     <section class="eventos">
         <h3>Día 7 - Sábado</h3>
-        <p><strong>17:30h</strong> - Juegos Infantiles y Manualidades</p>
-        <p><strong>21:00h</strong> - Premio del Vecino Ejemplar</p>
-        <p><strong>21:30h</strong> - Gran Espicha y Concurso de Tartas</p>
-        <p><strong>23:00h</strong> - Verbena con DJ Cardeo</p>
+        <div class="evento">
+            <div class="hora">17:30h</div>
+            <div class="descripcion">Juegos Infantiles y Manualidades</div>
+        </div>
+        <div class="evento">
+            <div class="hora">21:00h</div>
+            <div class="descripcion">Premio del Vecino Ejemplar</div>
+        </div>
+        <div class="evento">
+            <div class="hora">21:30h</div>
+            <div class="descripcion">Gran Espicha y Concurso de Tartas</div>
+        </div>
+        <div class="evento">
+            <div class="hora">23:00h</div>
+            <div class="descripcion">Verbena con DJ Cardeo</div>
+        </div>
     </section>
 
     <section class="eventos">
         <h3>Día 8 - Domingo</h3>
-        <p><strong>11:30h</strong> - Pasacalles acompañado de Banda de Gaitas el Principado</p>
-        <p><strong>12:30h</strong> - Misa Solemne con salida de Ramo y Procesión. A continuación, sesión vermouth y subasta de Ramos amenizada por Gaiteros.</p>
-        <p><strong>17:30h</strong> - Hinchable Gratuito para Niños</p>
-        <p><strong>19:30h</strong> - Bingo</p>
-        <p><strong>22:30h</strong> - Verbena con Dúo Salados y DJ Cardeo</p>
+        <div class="evento">
+            <div class="hora">11:30h</div>
+            <div class="descripcion">Pasacalles acompañado de Banda de Gaitas el Principado</div>
+        </div>
+        <div class="evento">
+            <div class="hora">12:30h</div>
+            <div class="descripcion">Misa Solemne con salida de Ramo y Procesión. A continuación, sesión vermouth y subasta de Ramos amenizada por Gaiteros.</div>
+        </div>
+        <div class="evento">
+            <div class="hora">17:30h</div>
+            <div class="descripcion">Hinchable Gratuito para Niños</div>
+        </div>
+        <div class="evento">
+            <div class="hora">19:30h</div>
+            <div class="descripcion">Bingo</div>
+        </div>
+        <div class="evento">
+            <div class="hora">22:30h</div>
+            <div class="descripcion">Verbena con Dúo Salados y DJ Cardeo</div>
+        </div>
     </section>
 
     <footer>
