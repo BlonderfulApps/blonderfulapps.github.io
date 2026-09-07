@@ -1,142 +1,74 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <!-- Vista previa en redes sociales -->
-<meta property="og:title" content="Fiestas de Los Caleyos 2025">
-<meta property="og:description" content="Programa de las fiestas de Los Caleyos en honor a Nuestra Señora de Covadonga. 6, 7 y 8 de septiembre 2025.">
-<meta property="og:image" content="https://blonderfulapps.github.io/lc2025.png">
-<meta property="og:url" content="https://blonderfulapps.github.io/">
-<meta property="og:type" content="website">
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1F4D3A;
+  color: white;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
 
-<!-- Para que también se vea en Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Fiestas de Los Caleyos 2025">
-<meta name="twitter:description" content="Programa completo de las fiestas de Los Caleyos 2025.">
-<meta name="twitter:image" content="https://blonderfulapps.github.io/lc2025.png">
+header {
+  text-align: center;
+  padding: 20px;
+  background: #6B1E2E;
+  color: white;
+}
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fiestas de Los Caleyos 2025</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background-color: #ffcc00;
-      color: black;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
 
-    header {
-      text-align: center;
-      padding: 20px;
-      background: #ff6699;
-      color: white;
-    }
+h2 {
+  margin: 5px 0 15px;
+  font-size: 1.2em;
+}
 
-    h1 {
-      margin: 0;
-      font-size: 2em;
-    }
+.day {
+  background: #14213D;
+  color: white;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
 
-    h2 {
-      margin: 5px 0 15px;
-      font-size: 1.2em;
-    }
+.day h3 {
+  margin: 0 0 10px;
+  color: white;
+  font-size: 1.2em;
+  border-bottom: 2px solid #1F4D3A;
+  padding-bottom: 8px;
+}
 
-    .day {
-      background: white;
-      margin: 15px;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
+.event {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
 
-    .day h3 {
-      margin: 0 0 10px;
-      color: #ff6699;
-      font-size: 1.2em;
-    }
+.time {
+  font-weight: bold;
+  min-width: 60px;
+  margin-right: 10px;
+  text-align: left;
+  color: #FFFFFF;
+}
 
-    .event {
-      display: flex;
-      align-items: flex-start;
-      margin-bottom: 8px;
-    }
+.description {
+  flex: 1;
+  margin-right: 15px;
+}
 
-    .time {
-      font-weight: bold;
-      min-width: 60px;
-      margin-right: 10px;
-      text-align: left;
-    }
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  background: #6B1E2E;
+  color: white;
+}
 
-    .description {
-      flex: 1;
-      margin-right: 15px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      background: #ff6699;
-      color: white;
-    }
-
-    footer a {
-      color: white;
-      text-decoration: underline;
-    }
-
-    /* Responsive */
-    @media (max-width: 600px) {
-      h1 { font-size: 1.5em; }
-      h2 { font-size: 1em; }
-      .day { margin: 10px; padding: 10px; }
-      .time { min-width: 50px; }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Fiestas de Los Caleyos 2025</h1>
-    <h2>Nuestra Señora de Covadonga</h2>
-    <p>6, 7 y 8 de septiembre</p>
-  </header>
-
-  <main>
-    <div class="day">
-      <h3>Sábado 6 de septiembre</h3>
-      <div class="event"><div class="time">19:00</div><div class="description">Actuación del Grupo Folclórico <strong>La Tamarga</strong> y posterior taller a los vecinos</div></div>
-      <div class="event"><div class="time">21:00</div><div class="description">Rifa de cesta</div></div>
-    </div>
-
-    <div class="day">
-      <h3>Domingo 7 de septiembre</h3>
-      <div class="event"><div class="time">18:00</div><div class="description">Gymkana infantil y juegos para los más pequeños</div></div>
-      <div class="event"><div class="time">21:30</div><div class="description">Gran espicha y concurso de tortillas</div></div>
-      <div class="event"><div class="time">23:00</div><div class="description">Verbena con <strong>DJ Cardeo</strong></div></div>
-    </div>
-
-    <div class="day">
-      <h3>Lunes 8 de septiembre</h3>
-      <div class="event"><div class="time">11:30</div><div class="description">Pasacalles acompañado por el <strong>Grupo de Gaitas Principado</strong></div></div>
-      <div class="event"><div class="time">12:30</div><div class="description">Misa solemne con salida de Ramo y Procesión. A continuación sesión vermut y subasta de Ramo amenizada por gaiteros</div></div>
-      <div class="event"><div class="time">17:30</div><div class="description">Hinchable gratuito para los más pequeños</div></div>
-      <div class="event"><div class="time">19:30</div><div class="description">Bingo</div></div>
-      <div class="event"><div class="time">22:30</div><div class="description">Gran verbena con <strong>Dúo Roma</strong> y <strong>DJ Cardeo</strong></div></div>
-    </div>
-
-    <div class="day">
-      <p>Tras finalizar el primer pase de Dúo Roma se desvelarán los tres ganadores del concurso de tortillas y entrega de premios.</p>
-      <p>Tras la verbena, gran chocolatada seguida de la ruta hacia Loreto.</p>
-    </div>
-  </main>
-
-  <footer>
-    <p><a href="https://www.facebook.com/groups/364046832989/permalink/10163796063372990/" target="_blank"><u>Colabora con Los Caleyos</u></a></p>
-  </footer>
-</body>
-</html>
+footer a {
+  color: white;
+  text-decoration: underline;
+}
